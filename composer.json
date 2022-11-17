@@ -1,0 +1,18 @@
+{
+    "name": "shaheen/inspire",
+    "description": "for demo testing",
+    "require": {
+        "guzzlehttp/guzzle": "7.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shaheen\\Inspire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "belalshahen",
+            "email": "106923197+belalshahen@users.noreply.github.com"
+        }
+    ]
+}
