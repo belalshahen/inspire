@@ -2,7 +2,6 @@
     "name": "shaheen/inspire",
     "description": "for demo testing",
     "require": {
-        "guzzlehttp/guzzle": "^7.5"
     },
     "autoload": {
         "psr-4": {
