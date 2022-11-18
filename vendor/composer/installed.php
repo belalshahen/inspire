@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '835aa129121b2c4a384a2c15a34120cf0ef2ea86',
         'name' => 'shaheen/inspire',
         'dev' => true,
     ),
     'versions' => array(
         'guzzlehttp/guzzle' => array(
-            'pretty_version' => '7.0.1',
-            'version' => '7.0.1.0',
+            'pretty_version' => '7.5.0',
+            'version' => '7.5.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/guzzle',
             'aliases' => array(),
-            'reference' => '2d9d3c186a6637a43193e66b097c50e4451eaab2',
+            'reference' => 'b50a2a1251152e43f6a37f0fa053e730a67d25ba',
             'dev_requirement' => false,
         ),
         'guzzlehttp/promises' => array(
@@ -29,12 +29,12 @@
             'dev_requirement' => false,
         ),
         'guzzlehttp/psr7' => array(
-            'pretty_version' => '1.9.0',
-            'version' => '1.9.0.0',
+            'pretty_version' => '2.4.3',
+            'version' => '2.4.3.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
-            'reference' => 'e98e3e6d4f86621a9b75f623996e6bbdeb4b9318',
+            'reference' => '67c26b443f348a51926030c83481b85718457d3d',
             'dev_requirement' => false,
         ),
         'psr/http-client' => array(
@@ -47,6 +47,21 @@
             'dev_requirement' => false,
         ),
         'psr/http-client-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.0',
+            ),
+        ),
+        'psr/http-factory' => array(
+            'pretty_version' => '1.0.1',
+            'version' => '1.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/http-factory',
+            'aliases' => array(),
+            'reference' => '12ac7fcd07e5b077433f5f2bee95b3a771bf61be',
+            'dev_requirement' => false,
+        ),
+        'psr/http-factory-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
                 0 => '1.0',
@@ -77,12 +92,21 @@
             'dev_requirement' => false,
         ),
         'shaheen/inspire' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '835aa129121b2c4a384a2c15a34120cf0ef2ea86',
+            'dev_requirement' => false,
+        ),
+        'symfony/deprecation-contracts' => array(
+            'pretty_version' => 'v2.5.2',
+            'version' => '2.5.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/deprecation-contracts',
+            'aliases' => array(),
+            'reference' => 'e8b495ea28c1d97b5e0c121748d6f9b53d075c66',
             'dev_requirement' => false,
         ),
     ),
